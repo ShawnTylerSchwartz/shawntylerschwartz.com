@@ -1,0 +1,33 @@
+#
+# Shawn Tyler Schwartz
+# https://shawntylerschwartz.com
+# shawnschwartz@ucla.edu
+#
+
+# Forbid Indexing
+Options -Indexes
+
+# Auto Add UTF-8
+<FilesMatch "\.(htm|html|php|asp|css|js)$">
+AddDefaultCharset UTF-8
+</FilesMatch>
+
+# HTTPS 
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Custom 403 Forbidden Error Page
+ErrorDocument 403 /403.html
+
+# Custom 404 Page Not Found Error Page
+ErrorDocument 404 /404.html
+
+# Custom 500 Internal Service Error Page
+ErrorDocument 500 /500.html
+
+# Remove html file extension
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
