@@ -489,6 +489,10 @@ nav ul .active .tooltiptext {
   opacity: 1;
 }
 
+#mainNav, li {
+
+}
+
 li {
 	padding-bottom: 20px;
 }
