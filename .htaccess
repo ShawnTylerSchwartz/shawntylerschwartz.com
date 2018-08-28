@@ -26,8 +26,3 @@ ErrorDocument 404 /404.html
 # Custom 500 Internal Service Error Page
 ErrorDocument 500 /500.html
 
-# Remove html file extension
-RewriteEngine on 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]

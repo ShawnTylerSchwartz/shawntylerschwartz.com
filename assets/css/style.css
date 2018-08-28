@@ -489,13 +489,42 @@ nav ul .active .tooltiptext {
   opacity: 1;
 }
 
-#mainNav, li {
-
-}
-
 li {
 	padding-bottom: 20px;
 }
+
+
+
+#side-menu {
+background-color : black;
+color:white;
+width:180px;
+padding:20px;
+list-style:none;
+position: relative;
+}
+
+#side-menu:hover {
+  display:inline-block;
+
+}
+
+
+.label-menu,
+#mainNav i{
+  display: inline-block;
+  vertical-align: middle;
+  color: #000000;
+  margin: 0 5px;
+}
+
+#mainNav:hover .label-menu {
+  display: inline-block;
+}
+.label-menu {
+  display: none;
+}
+
 
 .dot { 
 	background: #313131;
