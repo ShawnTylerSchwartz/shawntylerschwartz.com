@@ -902,4 +902,10 @@ article.languages > h5 {
   .arrow {
     display: none;
   }
+
+  .logoCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
