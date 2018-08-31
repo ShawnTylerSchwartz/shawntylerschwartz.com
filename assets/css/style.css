@@ -5,7 +5,7 @@
 * Copyright (C) Shawn Tyler Schwartz, 2018
 * https://shawntylerschwartz.com
 * 
-* shawnschwartz [at] ucla [dot] edu
+* shawnschwartz@ucla.edu
 *
 */
 
@@ -102,16 +102,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .shawnTylerSchwartz > h1 {
 	padding-top: 30px;
-}
-
-@media (max-width: 38em) {
-  .shawnTylerSchwartz > h1 {
-    padding-top: 60px;
-  }
-
-  #mainNav {
-    display: none;
-  }
 }
 
 .shawnTylerSchwartz > h1, h3 {
@@ -493,24 +483,6 @@ li {
 	padding-bottom: 20px;
 }
 
-
-
-#side-menu {
-background-color : black;
-color:white;
-width:180px;
-padding:20px;
-list-style:none;
-position: relative;
-}
-
-#side-menu:hover {
-  display:inline-block;
-
-}
-
-
-.label-menu,
 #mainNav i{
   display: inline-block;
   vertical-align: middle;
@@ -518,13 +490,9 @@ position: relative;
   margin: 0 5px;
 }
 
-#mainNav:hover .label-menu {
+#mainNav:hover {
   display: inline-block;
 }
-.label-menu {
-  display: none;
-}
-
 
 .dot { 
 	background: #313131;
@@ -890,6 +858,15 @@ article.languages > h5 {
   }
 }
 
+@keyframes fadeOutOpacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 @-webkit-keyframes flippityFlip {  
   0% {
     -webkit-transform: rotateX(0deg); 
@@ -910,4 +887,19 @@ article.languages > h5 {
     transform: rotateX(360deg);
     transform-origin: 0% 50% 0;
   }  
+}
+
+/* Media Queries */
+@media (max-width: 38em) {
+  .shawnTylerSchwartz > h1 {
+    padding-top: 60px;
+  }
+
+  #mainNav {
+    display: none;
+  }
+
+  .arrow {
+    display: none;
+  }
 }

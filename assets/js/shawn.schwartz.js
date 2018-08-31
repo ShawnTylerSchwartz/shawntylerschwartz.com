@@ -1,3 +1,11 @@
+//
+//
+// Copyright (C) Shawn Tyler Schwartz, 2018
+// https://shawntylerschwartz.com
+// 
+// shawnschwartz@ucla.edu
+//
+//
 
 // Cache selectors
 var lastId,
