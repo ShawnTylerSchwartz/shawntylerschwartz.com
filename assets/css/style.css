@@ -918,8 +918,8 @@ article.languages > h5 {
 
 @media (max-width: 34em) {
   .social {
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
   }
 }
