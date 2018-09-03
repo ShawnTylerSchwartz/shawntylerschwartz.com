@@ -4,9 +4,6 @@
 # shawnschwartz@ucla.edu
 #
 
-# Forbid Indexing
-Options -Indexes
-
 # Auto Add UTF-8
 <FilesMatch "\.(htm|html|php|asp|css|js)$">
 AddDefaultCharset UTF-8
