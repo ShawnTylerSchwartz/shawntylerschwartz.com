@@ -28,3 +28,9 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
+
+# 301 Redirects
+Redirect 301 /resume/ https://shawntylerschwartz.com/cv/
+Redirect 301 /projects/ https://shawntylerschwartz.com/
+Redirect 301 /portfolio/ https://shawntylerschwartz.com/
+Redirect 301 /blog/ https://shawntylerschwartz.com/
