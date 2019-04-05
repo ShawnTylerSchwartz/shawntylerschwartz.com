@@ -617,6 +617,14 @@ a.no-bar {
     background-image: url(../images/social/twitter.svg);
 }
 
+.cv {
+    background-image: url(../images/social/cv.svg);
+}
+
+.orcid {
+    background-image: url(../images/social/orcid.svg);
+}
+
 .four-oh-three {
     background-image: url(../images/403.svg);
     padding: 0;
