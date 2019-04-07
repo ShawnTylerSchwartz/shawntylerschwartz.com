@@ -2,7 +2,7 @@
 
 /*
 *
-* Copyright (C) Shawn Tyler Schwartz, 2018
+* Copyright (C) Shawn Tyler Schwartz, 2018-2019
 * https://shawntylerschwartz.com
 * 
 * shawnschwartz@ucla.edu
@@ -384,7 +384,7 @@ article {
 }
 
 .shawnTylerSchwartz {
-    background-image: url(../images/shawn.jpg);
+    background-image: url(../images/shawn_light.jpg);
     height: 200pt;
     padding: 0;
     padding-bottom: 75%;

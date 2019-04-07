@@ -68,7 +68,7 @@ new Typed('#shawn', {
   });
 
 new Typed('#terminal', {
-    strings: ['npm install shawn...<br /><br />^1000\n `I\'m an undergrad thesis candidate @ UCLA in cognitive science and Ecology and Evolutionary Biology...<br /><br />` ^1000\n `I was the lead student web developer for ASUCLA Marketing...<br /><br />` ^1000\n `I\'ve previously developed software for UCLA Health!`'],
+    strings: ['npm install shawn...<br /><br />^1000\n `I\'m an undergrad thesis candidate @ UCLA in cognitive science and biology...<br /><br />` ^1000\n `I was the lead student web developer for ASUCLA Marketing...<br /><br />` ^1000\n `I\'ve previously developed software for UCLA Health!`'],
     typeSpeed: 65,
     backSpeed: 25,
     backDelay: 500,
