@@ -83,7 +83,9 @@ a[class] {
 
 a {
     padding-bottom: 5px;
-    color: #e84f01;
+    /*color: #e84f01;*/
+    color: #ff0042;
+    /*color: #fc1052;*/
     background: linear-gradient(0deg, currentcolor, currentcolor) bottom center no-repeat;
     background-size: 0px 3px;
     transition: 0.5s;
@@ -382,7 +384,7 @@ article {
 }
 
 .shawnTylerSchwartz {
-    background-image: url(../images/shawn.jpg);
+    background-image: url(../images/shawn.webp);
     height: 200pt;
     padding: 0;
     padding-bottom: 75%;
@@ -409,7 +411,7 @@ article {
 }
 
 .signature {
-    background-image: url(../images/signature.png);
+    background-image: url(../images/signature.webp);
     height: 350px;
     width: 344px;
     padding: 0;
