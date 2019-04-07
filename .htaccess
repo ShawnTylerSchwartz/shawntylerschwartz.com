@@ -4,7 +4,7 @@
 # shawnschwartz@ucla.edu
 #
 
-# Caching
+# Expires Caching
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType image/jpg "access 6 months"
@@ -18,7 +18,7 @@ ExpiresByType image/x-icon "access 1 month"
 ExpiresDefault "access 1 month"
 </IfModule>
 
-#Gzip Compression
+# Gzip Compression
 <ifModule mod_gzip.c>
 mod_gzip_on Yes
 mod_gzip_dechunk Yes
