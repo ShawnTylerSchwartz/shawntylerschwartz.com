@@ -2,6 +2,7 @@
 # Shawn Tyler Schwartz
 # https://shawntylerschwartz.com
 # shawnschwartz@ucla.edu
+# 2018-2019
 #
 
 # Expires Caching
@@ -11,7 +12,6 @@ ExpiresByType image/jpg "access 6 months"
 ExpiresByType image/jpeg "access 6 months"
 ExpiresByType image/gif "access 6 months"
 ExpiresByType image/png "access 6 months"
-ExpiresByType text/css "access 1 month"
 ExpiresByType text/x-javascript "access 1 month"
 ExpiresByType application/x-shockwave-flash "access 1 month"
 ExpiresByType image/x-icon "access 1 month"

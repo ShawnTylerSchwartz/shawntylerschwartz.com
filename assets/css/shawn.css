@@ -627,6 +627,10 @@ a.no-bar {
     background-image: url(../images/social/orcid.svg);
 }
 
+.scholar {
+    background-image: url(../images/social/scholar.svg);
+}
+
 .four-oh-three {
     background-image: url(../images/403.svg);
     padding: 0;
