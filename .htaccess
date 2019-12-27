@@ -41,13 +41,13 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Custom 403 Forbidden Error Page
-ErrorDocument 403 /403.html
+ErrorDocument 403 /four-oh-three
 
 # Custom 404 Page Not Found Error Page
-ErrorDocument 404 /404.html
+ErrorDocument 404 /four-oh-four
 
 # Custom 500 Internal Service Error Page
-ErrorDocument 500 /500.html
+ErrorDocument 500 /500
 
 # Remove html file extension
 RewriteEngine on 
