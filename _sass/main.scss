@@ -570,9 +570,10 @@ pre {
 /* Media Queries */
 @media (max-width: 38em) {
   body {
-    min-height: 1000px;
-    margin-bottom: 500px;
+    min-height: 2000px;
+    margin-bottom: 1200px;
     clear: both;
+    background: red;
   }
 
   .bigname {
