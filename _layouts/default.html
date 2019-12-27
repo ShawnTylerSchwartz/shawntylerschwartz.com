@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  {% include style.default.html %}
+  <body class="preload">
+    <section id="header">
+        {% include header.html %}
+        {% include navigation.html %}
+    </section>
+    <section id="{{ page.id }}">
+        <article>
+            {{ content }}
+        </article>
+    </section>
+    {% include footer.html %}
+    {% include preload.html %}
+  </body>
+</html>
