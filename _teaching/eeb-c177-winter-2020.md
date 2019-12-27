@@ -21,4 +21,4 @@ order: 2
     {% endfor %}
 </ul> -->
 
-**Course Website:** ([https://shawntylerschwartz.github.io/eeb-c177-w20/](https://shawntylerschwartz.github.io/eeb-c177-w20/))
+**Course Website:** ([https://shawntylerschwartz.github.io/eeb-c177-w20/](https://shawntylerschwartz.github.io/eeb-c177-w20/)){:target="_blank"}
