@@ -9,7 +9,7 @@
 *
 */
 
-// Google Fonts
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
 // Font Variables
@@ -57,8 +57,7 @@ body {
   color: $bodyColor;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  // prevent sticky footer from covering body content
-  min-height: 400px;
+  min-height: 500px; /* prevent sticky footer from covering body content */
   margin-bottom: 250px;
   clear: both;
 }
@@ -107,6 +106,15 @@ h4 {
   margin-bottom: 0px;
 }
 
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 p {
   font-weight: 300;
   font-size: 14pt;
@@ -134,6 +142,13 @@ img {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+video {
+  height: 100%;
+  background-color: transparent;
+  display: block;
+  margin: 0;
 }
 
 .caption {
@@ -181,6 +196,10 @@ img {
 
 .submenu {
   padding-top: 15px;
+}
+
+ul.submenu {
+  padding-left: 0;
 }
 
 .submenu li {
@@ -251,7 +270,7 @@ footer {
   -o-backdrop-filter: saturate(100%) blur(10pt);
 }
 
-// Social Icons
+/* Social Icons */
 .github {
   background-image: url('../images/social/github.svg');
 }
@@ -311,7 +330,7 @@ article.social-icons {
   margin-bottom: $spacing-unit / 2;
 }
 
-// Syntax Highlighting Styles 
+/* Syntax Highlighting Styles */
  .highlight {
   background: #fff;
   @extend %vertical-rhythm;
@@ -377,7 +396,7 @@ article.social-icons {
   .il    { color: #099 } // Literal.Number.Integer.Long
 }
 
-// Code Formatting
+/* Code Formatting */
 pre,code {
   font-size: 15px;
   border: 1px solid $grey-color-light;
@@ -400,8 +419,8 @@ pre {
    }
 }
 
-// Terminal Window
-.text-editor-wrap {
+/* Browser Window */
+.browser-wrap {
   display: block;
   margin: auto;
   max-width: 550px;
@@ -420,34 +439,8 @@ pre {
   background: #ffffff;
 }
 
-.text-body {
-  height: 300px;
-  background: rgba(255, 255, 255, 0.85);
-  // padding: 10px;
-  color: #28FE14;
-  text-shadow: #000 0px 1px 0px;
-  font-family: "Consolas", "Courier New", "Courier";
-  font-size: 1.1em;
-  line-height: 1.40em;
-  font-weight: 500;
-  text-align: left;
-  overflow: hidden;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out; 
-}
-
-.window {
-  background: #fff;
-  width: 50vw;
-  height: 75vh;
-  margin: auto;
-  margin-top: 12.5vh;
-  border: 1px solid #acacac;
-  border-radius: 6px;
-  box-shadow: 0px 0px 20px #acacac;
+.title {
+  margin-left: -50px;
 }
 
 .titlebar {
@@ -574,6 +567,32 @@ pre {
   margin-left: 1.5pt;
 }
 
-.title {
-  margin-left: -50px;
+/* Media Queries */
+@media (max-width: 38em) {
+  body {
+    min-height: 750px;
+  }
+
+  .bigname {
+    font-size: 2.9em;
+    padding-top: 2%;
+  }
+
+  .subline {
+    font-size: 90%;
+    line-height: 95%;
+  }
+
+  .submenu li {
+    font-size: 0.8em;
+    line-height: 90%;
+  }
+}
+
+@media (max-width: 34em) {
+  .social {
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+  }
 }

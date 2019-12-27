@@ -8,7 +8,7 @@ navigation: 5
 <div style="margin-top: 40px;"></div>
 
 <!-- shawntylerschwartz.com -->
-<div class="text-editor-wrap">
+<div class="browser-wrap">
     <div class="buttons">
         <div class="close"><a class="closebutton invisible" href="#"><span>x</span></a></div>
         <div class="minimize"><a class="minimizebutton invisible" href="#"><span>&ndash;</span></a></div>
@@ -20,7 +20,7 @@ navigation: 5
 <p class="center caption">Personal Website<br /><small>(December 2019 &ndash; Present)</small></p>
 
 <!-- asucla.ucla.edu -->
-<div class="text-editor-wrap">
+<div class="browser-wrap">
     <div class="buttons">
         <div class="close"><a class="closebutton invisible" href="#"><span>x</span></a></div>
         <div class="minimize"><a class="minimizebutton invisible" href="#"><span>&ndash;</span></a></div>
@@ -32,7 +32,7 @@ navigation: 5
 <p class="center caption">Lead Student Developer for ASUCLA<br />Co-redesigned and managed entire site for ASUCLA<br /><small>(January 2016 &ndash; March 2019)</small></p>
 
 <!-- shop.uclastore.com -->
-<div class="text-editor-wrap">
+<div class="browser-wrap">
     <div class="buttons">
         <div class="close"><a class="closebutton invisible" href="#"><span>x</span></a></div>
         <div class="minimize"><a class="minimizebutton invisible" href="#"><span>&ndash;</span></a></div>
@@ -44,7 +44,7 @@ navigation: 5
 <p class="center caption">Design Consultant for 2018 Redesign &amp; Maintained Backend<br /><small>(January 2018 &ndash; March 2019)</small></p>
 
 <!-- languagebird.com -->
-<div class="text-editor-wrap">
+<div class="browser-wrap">
     <div class="buttons">
         <div class="close"><a class="closebutton invisible" href="#"><span>x</span></a></div>
         <div class="minimize"><a class="minimizebutton invisible" href="#"><span>&ndash;</span></a></div>
