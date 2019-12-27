@@ -70,6 +70,73 @@
         .submenu li a { color: #000000; }
         .divider { color: #000000; }
         a.invisible { color: #000000; }
+        
+        /* Keyframes */
+        @-webkit-keyframes flippityFlip {  
+        0% {
+            -webkit-transform: rotateX(0deg); 
+            -webkit-transform-origin: 0% 50% 0;
+        }  
+        100% {
+            -webkit-transform: rotateX(360deg); 
+            -webkit-transform-origin: 0% 50% 0;
+        }  
+        }
+        @keyframes flippityFlip {  
+        0% {
+            transform: rotateX(0deg); 
+            transform-origin: 0% 50% 0;
+        }  
+        100% {
+            transform: rotateX(360deg);
+            transform-origin: 0% 50% 0;
+        }  
+        }
+
+        /* Four-Oh-Three */
+        .four-oh-three {
+        background-image: url(https://shawntylerschwartz.com/assets/images/403.svg);
+        padding: 0;
+        background-position: center center;
+        width: 300px;
+        height: 300px;
+        background-size: 300px 300px;
+        background-repeat: no-repeat;
+        content: '';
+        -webkit-animation: flippityFlip 6s infinite;
+        animation: flippityFlip 6s infinite;
+        }
+        /* Four-Oh-Four */
+        .four-oh-four {
+        background-image: url(https://shawntylerschwartz.com/assets/images/404.svg);
+        padding: 0;
+        background-position: center center;
+        width: 300px;
+        height: 300px;
+        background-size: 300px 300px;
+        background-repeat: no-repeat;
+        content: '';
+        -webkit-animation: flippityFlip 6s infinite;
+        animation: flippityFlip 6s infinite;
+        }
+
+        /* 500 */
+        .hero {
+        font-size: 75pt;
+        font-weight: 800;
+        color: #000000;
+        line-height: 26pt;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        }
+
+        .sub-hero {
+        font-size: 24pt;
+        font-weight: 300;
+        color: #000000;
+        padding-bottom: 40px;
+        line-height: 26pt;
+        }
     </style>
 </head>
   <body class="preload">
