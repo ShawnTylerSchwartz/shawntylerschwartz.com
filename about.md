@@ -6,7 +6,7 @@ navigation: 1
 ---
 
 ![about](../assets/images/about-shawn.png){: style="float: left; width: 35%; padding-right: 30px;"}
-### Graduate Student. Researcher. Educator. Programmer. Designer. Bruin. Test.
+### Graduate Student. Researcher. Educator. Programmer. Designer. Bruin.
 
 #### Education
 M.S., Biology, UCLA, Expected June 2021
