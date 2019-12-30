@@ -20,7 +20,7 @@ I'm a well-rounded, technically-skilled graduate student in the Department of Ec
 `C++` `Python` `R` `MATLAB` `HTML` `CSS` `JavaScript` `PHP` `SQL`
 
 #### Technical Skills and Tools
-`Machine Learning` `Deep Learning` `LaTeX` `Markdown` `Jekyll` `MySQL` `Jupyter` `Bash` `Wordpress` `Xcode` `VSCode` `Adobe Photoshop` `Adobe Illustrator` `Adobe InDesign` `Microsoft Excel` `MacOS` `Windows` `Linux`
+`Machine Learning` `Deep Learning` `LaTeX` `Markdown` `Jekyll` `MySQL` `Jupyter` `Bash` `Wordpress` `Xcode` `VSCode` `Adobe Photoshop` `Adobe Illustrator` `Adobe InDesign` `Microsoft Excel` `macOS` `Windows` `Linux`
 #### Contact Me
 Email me at <a href="&#115;&#104;&#097;&#119;&#110;&#115;&#099;&#104;&#119;&#097;&#114;&#116;&#122;&#064;&#117;&#099;&#108;&#097;&#046;&#101;&#100;&#117;" target="_blank" alt="Email" title="Email"><strong>&#115;&#104;&#097;&#119;&#110;&#115;&#099;&#104;&#119;&#097;&#114;&#116;&#122;&#064;&#117;&#099;&#108;&#097;&#046;&#101;&#100;&#117;</strong></a> to get in touch.
 
