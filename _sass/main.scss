@@ -588,6 +588,15 @@ pre {
     font-size: 0.8em;
     line-height: 90%;
   }
+
+  #signature {
+    display: none;
+  }
+
+  article.social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 34em) {
