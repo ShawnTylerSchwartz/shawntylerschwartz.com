@@ -60,9 +60,3 @@ RewriteRule ^/cv/.*$ https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz
 RedirectMatch 301 /cv/(.*) https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
 RedirectMatch 301 /resume/(.*) https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
 RedirectMatch 301 /vita/(.*) https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 /cv https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 /vita https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 /resume https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 /cv/ https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 /vita/ https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 /resume/ https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
