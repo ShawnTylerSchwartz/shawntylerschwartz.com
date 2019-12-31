@@ -56,6 +56,3 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
 # 301 Redirects
-RewriteRule ^cv/(.*) https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf [R=301,L]]
-RewriteRule ^resume/(.*) https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf [R=301,L]01,L]
-RewriteRule ^vita/(.*) https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf [R=301,L]
