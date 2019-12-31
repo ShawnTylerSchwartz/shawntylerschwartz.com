@@ -59,4 +59,4 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 RedirectMatch 301 /cv/(.*) https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
 RedirectMatch 301 /resume/(.*) https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
 RedirectMatch 301 /vita/(.*) https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-RewriteRule ^/cv/(.*)$ https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf [R=301,L]
+RewriteRule ^cv/(.*)$ https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf [R=301,L]
