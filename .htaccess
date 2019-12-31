@@ -61,4 +61,4 @@ Redirect 301 /resume https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz
 Redirect 301 /vita/ https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
 Redirect 301 /vita https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
 Redirect 301 /cv/Shawn-T-Schwartz_CV.pdf https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-RedirectMatch 301 /cv/. https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
+RedirectMatch 301 /cv/.*$ https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
