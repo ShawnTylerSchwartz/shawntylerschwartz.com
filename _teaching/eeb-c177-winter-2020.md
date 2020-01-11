@@ -4,12 +4,12 @@ title: "EEB C177/C234: Practical Computing for Evolutionary Biologists and Ecolo
 term: Winter 2020
 school: UCLA
 role: Teaching Assistant
-enrollment: 15 Undergraduates, 2 Graduates
+enrollment: 17 Undergraduates, 7 Graduates
 instructor: Michael E. Alfaro, Ph.D.
 ta: Shawn T. Schwartz
 lecture: T/Th 9:30-10:45am
 section: Lab 1A (8-10:50am), Lab 1B (11-1:50am)
-location: LaKretz Hall 120 (Lecture), Mathematical Sciences 5233 (Lab 1A), Young Hall 1044 (Lab 1B)
+location: Royce Hall 160 (Lecture), Mathematical Sciences 5233 (Lab 1A), Young Hall 1044 (Lab 1B)
 description: "Lecture, three hours; laboratory, two hours. Requisite: Life Sciences 1 or 7B. Introduction to fundamental skills needed for manipulation, analysis, and visualization of large data sets. Basic programming and scripting in Python as well as working in shell, regular expressions, and related topics."
 order: 2
 ---

@@ -17,7 +17,7 @@ B.S., Cognitive Science (Highest Honors) and Biology (Honors), *Specialization i
 I'm a well-rounded, technically-skilled graduate student in the Department of Ecology and Evolutionary Biology at UCLA, public speaker, and software developer with over 11 years of programming, design, and full-stack development experience, in over 10 programming languages.
 
 #### Programming Languages
-`C++` `Python` `R` `MATLAB` `HTML` `CSS` `JavaScript` `PHP` `SQL`
+`C++` `Python` `Java` `R` `MATLAB` `HTML` `CSS` `JavaScript` `PHP` `SQL`
 
 #### Technical Skills and Tools
 `Machine Learning` `Deep Learning` `LaTeX` `Markdown` `Jekyll` `MySQL` `Jupyter` `Bash` `Wordpress` `Xcode` `VSCode` `Adobe Photoshop` `Adobe Illustrator` `Adobe InDesign` `Microsoft Excel` `macOS` `Windows` `Linux`
