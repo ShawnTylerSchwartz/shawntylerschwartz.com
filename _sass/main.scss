@@ -270,6 +270,29 @@ footer {
   -o-backdrop-filter: saturate(100%) blur(10pt);
 }
 
+/*
+ * Thanks, @rgbkrk: https://github.com/nteract/nteract/issues/810 !
+ */
+blockquote{
+  padding: .75em .5em .75em 1em;
+  background: white;
+  border-left: 0.5em solid #DDD;
+}
+
+blockquote::before {
+  display: block;
+  height: 0;
+  content: "“";
+  margin-left: -.95em;
+  font: italic 400%/1 Open Serif,Georgia,"Times New Roman", serif;
+  color: #999;
+}
+
+/* for nested paragraphs in block quotes */
+blockquote p {
+  display: inline;
+}
+
 /* Social Icons */
 .github {
   background-image: url('../images/social/github.svg');

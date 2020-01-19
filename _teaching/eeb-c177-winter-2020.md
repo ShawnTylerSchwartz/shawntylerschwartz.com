@@ -4,7 +4,7 @@ title: "EEB C177/C234: Practical Computing for Evolutionary Biologists and Ecolo
 term: Winter 2020
 school: UCLA
 role: Teaching Assistant
-enrollment: 17 Undergraduates, 7 Graduates
+enrollment: 17 Undergraduates, 6 Graduates
 instructor: Michael E. Alfaro, Ph.D.
 ta: Shawn T. Schwartz
 lecture: T/Th 9:30-10:45am

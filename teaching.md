@@ -31,10 +31,17 @@ navigation: 4
         <li>Role: Assistant</li>
         <li>Term: Fall 2019</li>
         <li>Enrollment: 21 Graduates</li>
-        <li>Instructors: Jamie Lloyd-Smith, Noa Pinter-Wollman, Kirk Lohmueller, & Michael Alfaro</li>
+        <li>Instructors: <a class="plain" href="https://faculty.eeb.ucla.edu/lloydsmith/" target="_blank">Jamie Lloyd-Smith</a>, <a class="plain" href="https://pinterwollmanlab.eeb.ucla.edu/" target="_blank">Noa Pinter-Wollman</a>, <a class="plain" href="https://faculty.eeb.ucla.edu/Lohmueller/" target="_blank">Kirk Lohmueller</a>, & <a class="plain" href="https://michaelalfaro.github.io/alfaro-lab/" target="_blank">Michael Alfaro</a></li>
       </ul>
   </li>
 </ul>
+
+## Anonymous Student Evaluations
+> Shawn was very knowledgable on the subjects we discussed in class and led a great discussion when the professor was absent. He truly cared about the student's performance in the course and offered to meet with students to discuss the final project outside of office hours. He was really helpful when we had questions about our final project and gave us insightful feedback. –– 3rd Year UCLA Undergraduate
+
+> Very good TA that was knowledgable of course material, very proactive and engaged with student learning, and responsive. –– 4th Year UCLA Undergraduate
+
+> Shawn was an approachable and helpful TA. I felt comfortable asking him questions about the class and the material. –– 3rd Year UCLA Undergraduate
 
 ## Teaching Statement
 My philosophy of education is rooted in ensuring equitable access to every aspect of the learning process for all types of learners. Throughout my development and education, I personally struggled in situations relying on massed learning of large quantities of information in stressful environments. My academic accolades were best represented in project-based learning environments that allowed for the utilization of my creativity, to elucidate my understanding of complex concepts, in a spaced learning format. Additionally, my high school’s lowly-funded science-education program, coupled with their choice to exclude Advanced Placement (AP) courses and examinations from our curriculum, prompted project-based teaching styles that relied on long-term, spread out multidisciplinary projects that spanned multiple dimensions over numerous weeks. My undergraduate education in the life sciences came with the sudden shock of high- stakes examinations that covered dense amounts of material, something that my learning preference and prior knowledge did not support well. **My past experiences have shaped me into an educator that seeks to assess and cater to a wide array of learning styles.**

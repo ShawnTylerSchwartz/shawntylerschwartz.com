@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 *
 * Copyright (C) Shawn Tyler Schwartz 2020
@@ -75,6 +76,14 @@ ol.reversed > li { -moz-transform: rotate(-180deg); -webkit-transform: rotate(-1
 #publications ul { margin: 20px 0; font-size: 14pt; font-weight: 300; line-height: 20pt; }
 
 footer { font-size: 90%; font-weight: 200; line-height: 1.3em; position: fixed; left: 0; bottom: 0; width: 100%; text-align: center; background: rgba(255, 255, 255, 0.7); backdrop-filter: saturate(100%) blur(10pt); -webkit-backdrop-filter: saturate(100%) blur(10pt); -moz-backdrop-filter: saturate(100%) blur(10pt); -ms-backdrop-filter: saturate(100%) blur(10pt); -o-backdrop-filter: saturate(100%) blur(10pt); }
+
+/* Thanks, @rgbkrk: https://github.com/nteract/nteract/issues/810 ! */
+blockquote { padding: .75em .5em .75em 1em; background: white; border-left: 0.5em solid #DDD; }
+
+blockquote::before { display: block; height: 0; content: "“"; margin-left: -.95em; font: italic 400%/1 Open Serif,Georgia,"Times New Roman", serif; color: #999; }
+
+/* for nested paragraphs in block quotes */
+blockquote p { display: inline; }
 
 /* Social Icons */
 .github { background-image: url("../images/social/github.svg"); }
