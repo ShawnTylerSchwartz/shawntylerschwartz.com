@@ -279,7 +279,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .buttons span { line-height: 10px; vertical-align: 50%; margin-left: 1.5pt; }
 
-.spacer { clear: both; height: 200px; }
+.spacer { clear: both; height: 150px; }
 
 /* Media Queries */
 @media (max-width: 38em) { .bigname { font-size: 2.9em; padding-top: 2%; }
