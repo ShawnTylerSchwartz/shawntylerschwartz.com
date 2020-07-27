@@ -13,7 +13,8 @@ navigation: 2
 </ol>
 
 ### Press Coverage
- - [Student-developed tool brings 3D molecular models to smartphone screen](https://dailybruin.com/2018/07/30/student-developed-tool-brings-3d-molecular-models-to-smartphone-screen/) (by Emi Nakahara, The Daily Bruin, 2018)
+ - [Early Career Research Day winner improves neural network training for biological research](https://idre.ucla.edu/featured/early-career-research-day-winner-improves-neural-network-training-for-biological-research) (by Kristen Ventura, UCLA Institute for Digital Research &amp; Education, July 2020)
+ - [Student-developed tool brings 3D molecular models to smartphone screen](https://dailybruin.com/2018/07/30/student-developed-tool-brings-3d-molecular-models-to-smartphone-screen/) (by Emi Nakahara, The Daily Bruin, July 2018)
 
 ### Conference Presentations and Invited Talks
 <ol class="reversed">
