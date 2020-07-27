@@ -6,11 +6,28 @@ navigation: 4
 ---
 
 ## UCLA
+**Psychology (PSYCH)**
+<ul>
+  {% assign courses = site.teaching | sort: 'order' | reverse %}
+  {% for course in courses %}
+  {% if course.grouped_by == "PSYCH" %}
+    <li>
+      <a href="{{ course.url }}" class="plain">{{ course.title }} ({{ course.term }})</a>
+      <ul>
+        <li>Role: {{ course.role }}</li>
+        <li>Enrollment: {{ course.enrollment }}</li>
+      </ul>
+      <br />
+    </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
 **Ecology and Evolutionary Biology (EEB)**
 <ul>
   {% assign courses = site.teaching | sort: 'order' | reverse %}
   {% for course in courses %}
-  {% if course.grouped_by == NULL %}
+  {% if course.grouped_by == "EEB" %}
     <li>
       <a href="{{ course.url }}" class="plain">{{ course.title }} ({{ course.term }})</a>
       <ul>

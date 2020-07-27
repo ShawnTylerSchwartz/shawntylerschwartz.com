@@ -12,6 +12,7 @@ section: Lab 1A (8-10:50am), Lab 1B (11-1:50am)
 location: Royce Hall 160 (Lecture), Mathematical Sciences 5233 (Lab 1A), Young Hall 1044 (Lab 1B)
 description: "Lecture, three hours; laboratory, two hours. Requisite: Life Sciences 1 or 7B. Introduction to fundamental skills needed for manipulation, analysis, and visualization of large data sets. Basic programming and scripting in Python as well as working in shell, regular expressions, and related topics."
 order: 2
+grouped_by: EEB
 ---
 
 <!-- {% assign course_assignments = site.teaching | where:"grouped_by","eeb-c177-winter-2020" %}

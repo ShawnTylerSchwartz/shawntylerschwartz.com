@@ -1,15 +1,15 @@
 ---
 layout: teaching
 title: "EEB 156: Biology and Social Justice"
-term: Fall 2019
+term: Summer 2020
 school: UCLA
-role: Teaching Assistant
-enrollment: 41 Undergraduates
+role: Teaching Associate
+enrollment: 60 Undergraduates
 instructor: Michael E. Alfaro, Ph.D.
 ta: Shawn T. Schwartz
-lecture: W 8-10:50am
-location: LaKretz Hall 120
+lecture: T/Th 1-3:05pm
+location: Conducted Virtually
 description: "Lecture, four hours. Consideration of intersection of biological discovery and human society to better understand how scientific advances have both promoted and mitigated social inequality."
-order: 1
+order: 4
 grouped_by: EEB
 ---
