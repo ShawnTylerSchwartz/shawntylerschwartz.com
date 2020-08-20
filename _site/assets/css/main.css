@@ -43,6 +43,10 @@ section { max-width: 600pt; padding: 0 20pt 0 20pt; margin: 0 auto 0 auto; }
 
 article { margin: 20pt 0; }
 
+small, .small { font-size: 90%; font-weight: 400; }
+
+.fa-ul li { margin: 0 0 10px 0 !important; }
+
 img { width: 100%; height: auto; user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-drag: none; -webkit-user-select: none; -ms-user-select: none; }
 
 video { height: 100%; background-color: transparent; display: block; margin: 0; }

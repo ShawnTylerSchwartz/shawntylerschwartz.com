@@ -9,9 +9,20 @@ navigation: 1
 ### Graduate Student. Researcher. Educator. Programmer. Designer. Bruin.
 
 #### Education
-M.S., Biology, UCLA, Expected June 2021
-
-B.S., Cognitive Science (Highest Honors) and Biology (Honors), *Specialization in Computing*, UCLA, June 2019
+<ul class="fa-ul">
+    <li>
+        <span class="fa fa-graduation-cap" aria-hidden="true"></span> M.S., Biology, Expected June 2021
+        <div class="small">University of California, Los Angeles</div>
+    </li>
+    <li>
+        <span class="fa fa-graduation-cap" aria-hidden="true"></span> B.S., Cognitive Science (Highest Honors), <em>Specialization in Computing</em>, 2019
+        <div class="small">University of California, Los Angeles</div>
+    </li>
+    <li>
+        <span class="fa fa-graduation-cap" aria-hidden="true"></span> B.S., Biology (Honors), <em>Specialization in Computing</em>, 2019
+        <div class="small">University of California, Los Angeles</div>
+    </li>
+</ul>
 
 #### Professional Summary
 I'm a well-rounded, technically-skilled graduate student in the Department of Ecology and Evolutionary Biology at UCLA, public speaker, and software developer with over 11 years of programming, design, and full-stack development experience, in over 10 programming languages.
