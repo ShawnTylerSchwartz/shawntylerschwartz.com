@@ -10,18 +10,18 @@ navigation: 1
 
 #### Education
 <ul class="fa-ul">
-  <li>
-      <span class="fa fa-graduation-cap" aria-hidden="true"></span> M.S., Biology, Expected June 2021
-      <div class="small">University of California, Los Angeles</div>
-  </li>
-  <li>
-      <span class="fa fa-graduation-cap" aria-hidden="true"></span> B.S., Cognitive Science (Highest Honors), <em>Specialization in Computing</em>, 2019
-      <div class="small">University of California, Los Angeles</div>
-  </li>
-  <li>
-      <span class="fa fa-graduation-cap" aria-hidden="true"></span> B.S., Biology (Honors), <em>Specialization in Computing</em>, 2019
-      <div class="small">University of California, Los Angeles</div>
-  </li>
+    <li>
+        <span class="fa fa-graduation-cap" aria-hidden="true"></span> M.S., Biology, Expected June 2021
+        <div class="small">University of California, Los Angeles</div>
+    </li>
+    <li>
+        <span class="fa fa-graduation-cap" aria-hidden="true"></span> B.S., Cognitive Science (Highest Honors), <em>Specialization in Computing</em>, 2019
+        <div class="small">University of California, Los Angeles</div>
+    </li>
+    <li>
+        <span class="fa fa-graduation-cap" aria-hidden="true"></span> B.S., Biology (Honors), <em>Specialization in Computing</em>, 2019
+        <div class="small">University of California, Los Angeles</div>
+    </li>
 </ul>
 
 #### Professional Summary

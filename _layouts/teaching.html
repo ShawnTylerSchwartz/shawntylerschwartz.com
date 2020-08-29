@@ -4,13 +4,13 @@ layout: default
 <p style="padding-top:10px;"><a href="../../teaching" class="plain">&laquo; Back to Teaching</a></p>
 <h1 class="post-title">{{ page.title }} ({{ page.term }})</h1>
 <article>
-  <p><strong>Instructor:</strong> {{ page.instructor }}</p>
-  <p><strong>TA:</strong> {{ page.ta }}</p>
-  <p><strong>Enrollment:</strong> {{ page.enrollment }}</p>
-  <p><strong>Lecture:</strong> {{ page.lecture }}</p>
-  {% if page.section %}<p><strong>Section:</strong> {{ page.section }}</p>{% endif %}
-  <p><strong>Location:</strong> {{ page.location }}</p>
-  <p><strong>Course Description:</strong> {{ page.description }}</p>
-  {{ content }}
+    <p><strong>Instructor:</strong> {{ page.instructor }}</p>
+    <p><strong>TA:</strong> {{ page.ta }}</p>
+    <p><strong>Enrollment:</strong> {{ page.enrollment }}</p>
+    <p><strong>Lecture:</strong> {{ page.lecture }}</p>
+    {% if page.section %}<p><strong>Section:</strong> {{ page.section }}</p>{% endif %}
+    <p><strong>Location:</strong> {{ page.location }}</p>
+    <p><strong>Course Description:</strong> {{ page.description }}</p>
+    {{ content }}
 </article>
-  
+    
