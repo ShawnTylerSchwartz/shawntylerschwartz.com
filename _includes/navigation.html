@@ -1,19 +1,19 @@
 <nav>
-    <ul class="submenu center">
-        {% assign pages = site.html_pages | sort: 'navigation' %}
-        {% for pp in pages %}
-        {% if pp.navigation %}
-        <li>
-            {% if pp.external_url %}
-            <a href="{{ pp.external_url }}" target="_blank">{{ pp.title }}</a>
-            {% else %}
-            <a href="{{ base }}/{{ pp.id }}" {% if pp.url == page.url %}class="active"{% endif %}>{{ pp.title }}</a>
-            {% endif %}
-            </li>
-            {% unless forloop.last %}
-            <span class="divider">/</span>
-            {% endunless %}
+  <ul class="submenu center">
+    {% assign pages = site.html_pages | sort: 'navigation' %}
+    {% for pp in pages %}
+    {% if pp.navigation %}
+    <li>
+        {% if pp.external_url %}
+        <a href="{{ pp.external_url }}" target="_blank">{{ pp.title }}</a>
+        {% else %}
+        <a href="{{ base }}/{{ pp.id }}" {% if pp.url == page.url %}class="active"{% endif %}>{{ pp.title }}</a>
         {% endif %}
-        {% endfor %}
-    </ul>
+        </li>
+        {% unless forloop.last %}
+        <span class="divider">/</span>
+        {% endunless %}
+    {% endif %}
+    {% endfor %}
+  </ul>
 </nav> 
