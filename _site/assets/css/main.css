@@ -9,15 +9,11 @@
 */
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 html { height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 16pt; font-weight: 400; line-height: 1.5em; margin: 0; padding: 0; border: 0; vertical-align: baseline; background: transparent; }
 
 .preload * { transition: none !important; -webkit-transition: none !important; -moz-transition: none !important; -ms-transition: none !important; -o-transition: none !important; }
 
-body { background: #ffffff; color: #000000; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; min-height: 500px; /* prevent sticky footer from covering body content */ margin-bottom: 250px; clear: both; }
+body { background: #ffffff; color: #000000; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; min-height: 500px; /* prevent sticky footer from covering body content */ clear: both; }
 
 a { padding-bottom: 5px; color: #296BB3; background: linear-gradient(0deg, currentcolor, currentcolor) bottom center no-repeat; background-size: 0px 3px; transition: 0.5s; text-decoration: none; }
 
@@ -83,7 +79,7 @@ ol.reversed > li { -moz-transform: rotate(-180deg); -webkit-transform: rotate(-1
 
 #publications ul { margin: 20px 0; font-size: 14pt; font-weight: 300; line-height: 20pt; }
 
-footer { font-size: 90%; font-weight: 200; line-height: 1.3em; position: fixed; left: 0; bottom: 0; width: 100%; text-align: center; background: rgba(255, 255, 255, 0.7); backdrop-filter: saturate(100%) blur(10pt); -webkit-backdrop-filter: saturate(100%) blur(10pt); -moz-backdrop-filter: saturate(100%) blur(10pt); -ms-backdrop-filter: saturate(100%) blur(10pt); -o-backdrop-filter: saturate(100%) blur(10pt); }
+footer { font-size: 90%; font-weight: 200; line-height: 1.3em; position: fixed; left: 0; bottom: 0; width: 100%; z-index: 9999; text-align: center; background: rgba(255, 255, 255, 0.7); backdrop-filter: saturate(100%) blur(10pt); -webkit-backdrop-filter: saturate(100%) blur(10pt); -moz-backdrop-filter: saturate(100%) blur(10pt); -ms-backdrop-filter: saturate(100%) blur(10pt); -o-backdrop-filter: saturate(100%) blur(10pt); height: 60px; }
 
 /* Thanks, @rgbkrk: https://github.com/nteract/nteract/issues/810 ! */
 blockquote { padding: .75em .5em .75em 1em; background: white; border-left: 0.5em solid #DDD; }
@@ -108,11 +104,11 @@ blockquote p { display: inline; }
 
 .scholar { background-image: url("../images/social/scholar.svg"); }
 
-.social { margin-top: 0.1em; font-weight: 300; width: 40px; height: 40px; background-size: 40px 40px; background-position: center center; background-repeat: no-repeat; display: inline-block; padding-right: 10px; }
+.social { margin-top: 0.2em; font-weight: 300; width: 35px; height: 35px; background-size: 35px 35px; background-position: center center; background-repeat: no-repeat; display: inline-block; padding-right: 10px; }
 
 .social > div { margin: 0 auto; }
 
-article.social-icons { margin-top: -10px; text-align: center; }
+article.social-icons { margin-top: 10px; text-align: center; }
 
 #teaching { font-size: 14pt; font-weight: 300; line-height: 20pt; }
 
@@ -287,7 +283,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .buttons span { line-height: 10px; vertical-align: 50%; margin-left: 1.5pt; }
 
-.spacer { clear: both; height: 150px; }
+.spacer { clear: both; height: 50px; }
 
 /* Media Queries */
 @media (max-width: 38em) { .bigname { font-size: 2.9em; padding-top: 2%; }
