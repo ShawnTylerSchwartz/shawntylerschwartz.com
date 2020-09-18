@@ -4,7 +4,7 @@ title: "EEB 156: Biology and Social Justice"
 term: Summer 2020
 school: UCLA
 role: Teaching Associate
-enrollment: 41 Undergraduates
+enrollment: 38 Undergraduates
 instructor: Michael E. Alfaro, Ph.D.
 ta: Shawn T. Schwartz
 lecture: T/Th 1-3:05pm
