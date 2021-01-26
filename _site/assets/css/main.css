@@ -290,11 +290,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .spacer { clear: both; height: 150px; }
 
 /* Media Queries */
-@media (max-width: 38em) { .bigname { font-size: 2.9em; padding-top: 2%; }
-  .subline { font-size: 90%; line-height: 95%; }
-  .submenu li { font-size: 0.8em; line-height: 90%; }
-  #signature { display: none; }
-  article.social-icons { margin-top: 10px; margin-bottom: 10px; } }
+@media (max-width: 38em) { .bigname { font-size: 2.9em; padding-top: 2%; } .subline { font-size: 90%; line-height: 95%; } .submenu li { font-size: 0.8em; line-height: 90%; } #signature { display: none; } article.social-icons { margin-top: 10px; margin-bottom: 10px; } }
 
 @media (max-width: 34em) { .social { width: 30px; height: 30px; background-size: 30px 30px; } }
 
