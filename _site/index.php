@@ -1,1 +1,1 @@
-This is a test.
+<?php header("Location: https://shawnschwartz.com/"); ?>
