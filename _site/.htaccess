@@ -2,7 +2,7 @@
 # Shawn Tyler Schwartz
 # https://shawntylerschwartz.com
 # shawnschwartz@ucla.edu
-# 2018-2020
+# 2018-2021
 #
 
 # Expires Caching
@@ -41,13 +41,13 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Custom 403 Forbidden Error Page
-ErrorDocument 403 https://shawntylerschwartz.com/four-oh-three/
+ErrorDocument 403 https://shawnschwartz.com/four-oh-three/
 
 # Custom 404 Page Not Found Error Page
-ErrorDocument 404 https://shawntylerschwartz.com/four-oh-four/
+ErrorDocument 404 https://shawnschwartz.com/four-oh-four/
 
 # Custom 500 Internal Service Error Page
-ErrorDocument 500 https://shawntylerschwartz.com/500/
+ErrorDocument 500 https://shawnschwartz.com/500/
 
 # Remove html file extension
 RewriteEngine on 
@@ -56,9 +56,20 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
 # 301 Redirects
-Redirect 301 /resume/ https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 /resume https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 /cv/ https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 /cv https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 /vita/ https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 /vita https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
+Redirect 301 /about/ https://shawnschwartz.com/about/
+Redirect 301 /about https://shawnschwartz.com/about
+Redirect 301 /publications/ https://shawnschwartz.com/publications/
+Redirect 301 /publications https://shawnschwartz.com/publications
+Redirect 301 /research/ https://shawnschwartz.com/research/
+Redirect 301 /research https://shawnschwartz.com/research
+Redirect 301 /teaching/ https://shawnschwartz.com/teaching/
+Redirect 301 /teaching https://shawnschwartz.com/teaching
+Redirect 301 /portfolio/ https://shawnschwartz.com/portfolio/
+Redirect 301 /portfolio https://shawnschwartz.com/portfolio
+Redirect 301 /resume/ https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
+Redirect 301 /resume https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
+Redirect 301 /cv/ https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
+Redirect 301 /cv https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
+Redirect 301 /vita/ https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
+Redirect 301 /vita https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
+Redirect 301 https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
