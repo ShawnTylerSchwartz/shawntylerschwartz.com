@@ -72,4 +72,4 @@ Redirect 301 /cv/ https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
 Redirect 301 /cv https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
 Redirect 301 /vita/ https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
 Redirect 301 /vita https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
-Redirect 301 https://shawntylerschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
+Redirect 301 /assets/vita/Shawn-T-Schwartz-CV.pdf https://shawnschwartz.com/assets/vita/Shawn-T-Schwartz-CV.pdf
